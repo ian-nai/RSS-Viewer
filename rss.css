@@ -1,0 +1,49 @@
+#mytable, td{
+    border:2px solid darkgray;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+h1 {
+    color: #FE898B; 
+    font-family: Helvetica;
+    font-size: 4em;
+    text-align: center;
+    line-height: 90%;
+    text-shadow: 0 0.025em #D60103;
+    background-color: #fcf2ff;
+}
+
+body {
+    padding:0;
+    margin:0;
+    background-color: #FEFCFC;
+    text-align: center;
+}
+
+
+header {
+    background-color: #FDF3FE;
+    overflow: hidden;
+}
+
+form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#NewFeed {
+    border: 2px solid black;
+    border-color: #D60103;
+    background: white;
+    color: red;
+    padding: 4px 4px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#NewFeed:hover {
+    background: #D60103;
+    color: white;
+}
